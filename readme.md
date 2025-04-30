@@ -23,15 +23,22 @@
 </p>
 
 # My Youtube Channel
-- [Subscribe](https://www.youtube.com/c/@MaDHouSe79)
+- [Subscribe](https://www.youtube.com/@MaDHouSe79)
 
-# MH Uber
-- A rp uber city job for qbcore.
+# MH Uber - A rp city job for qbcore.
+- Go to the cityhall to get the job and after that use `F1` to start the job, you must be in a allowed vehicle to use this.
+- Use `/usermenu` or `F4` to request an uber, the driver gets a mail on his phone and when acceppted, you get a messages back that he is on his way.
+- uber drivers can use the uber menu and bill a player.
+
+# Dependencies
+- [oxmysql](https://github.com/overextended/oxmysql/releases/tag/v1.9.3)
+- [ox_lib](https://github.com/overextended/ox_lib/releases)
+- [qb-radialmenu](https://github.com/qbcore-framework/qb-radialmenu)
 
 # Commands
 - '/ubermenu' or F4
 
-# QB Shared Jobs
+# QB Sgared Job
 ```lua
 uber = { label = 'Uber', defaultDuty = false, offDutyPay = false, grades = {['0'] = { name = 'Driver', payment = 0 } } },
 ```
