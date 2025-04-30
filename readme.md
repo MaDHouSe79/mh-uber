@@ -26,12 +26,12 @@
 - [Subscribe](https://www.youtube.com/c/@MaDHouSe79)
 
 # MH Uber
-- a rp uber city job for qbcore.
+- A rp uber city job for qbcore.
 
 # Commands
 - '/ubermenu' or F4
 
-# QB Sgared Job
+# QB Shared Jobs
 ```lua
 uber = { label = 'Uber', defaultDuty = false, offDutyPay = false, grades = {['0'] = { name = 'Driver', payment = 0 } } },
 ```
