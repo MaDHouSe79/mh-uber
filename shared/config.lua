@@ -5,7 +5,7 @@ Config.OpenMenuCommand = 'ubermenu'  -- Command to open uber menu
 
 Config.RitPrice = 5 -- default $5 per 1000 meters.
 
--- use it as table like this `{'muscle', 'super'}` (you can add moreif you want)
+-- use it as table like this `{'muscle', 'super'}` (you can add more if you want)
 -- or set to `-1` so that every vehicle class is allowed.
 Config.AllowedVehiclesCategory = {
     ['offroad'] = true, 
